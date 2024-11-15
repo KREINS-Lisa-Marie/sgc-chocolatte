@@ -1,4 +1,11 @@
-<!doctype html>
+<?php
+// 
+/* commentaire multiligne */
+
+$today = date(`d/m/Y H:i:s`);
+$title = `Chocolatte (`.$today.`)`;
+
+?><!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -7,7 +14,8 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Barista Cafe HTML CSS Template</title>
+        <!--<title><?php echo $title; ?></title>-->
+        <title><?=  $title ?></title>
 
         <!-- CSS FILES -->                
         <link rel="preconnect" href="https://fonts.googleapis.com">
