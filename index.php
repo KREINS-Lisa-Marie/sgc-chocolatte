@@ -1,9 +1,9 @@
 <?php
-// 
+// commentaire d'une ligne
 /* commentaire multiligne */
 
-$today = date(`d/m/Y H:i:s`);
-$title = `Chocolatte (`.$today.`)`;
+$today = date('d/m/Y H:i:s');
+$title = 'Chocolatte ('.$today.')';
 
 ?><!doctype html>
 <html lang="en">
